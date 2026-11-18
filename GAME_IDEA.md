@@ -2,82 +2,95 @@
 
 ## High concept
 
-**Relay Zero** is a competitive multiplayer game for **two teams**. Each team races to capture a valuable data core, build a communication relay network, and deliver the core to its extraction point before the opposing team does.
+**Relay Zero** is an **8-player, 4v4 social-deduction multiplayer game** inspired by games like *Among Us*, but built around two rival teams. Both teams are trapped in the same facility and must complete objectives, repair systems, and extract valuable data before the opposing team does.
 
-The match is not won by individual skill alone. Teams must communicate clearly, coordinate their movements, and collaborate on different objectives while disrupting the other team’s plans.
+The twist is that each team has one hidden **Mole** secretly working for the other side. Players must communicate, coordinate tasks, collaborate under pressure, and identify who is sabotaging the team before it is too late.
 
 ## Match format
 
-- **Players:** 2 teams of 3–5 players
-- **Mode:** Team vs. team
-- **Match length:** 15–25 minutes
-- **Objective:** Capture the data core, transport it across the map, and extract it
-- **Victory:** The first team to successfully extract the core wins; if neither team extracts it, the team with the most secured objectives wins
+- **Players:** 8 total
+- **Teams:** 2 teams of 4
+- **Mode:** Team vs. team with hidden infiltrators
+- **Match length:** 10–20 minutes
+- **Setting:** A facility with connected rooms, task stations, vents, security systems, and communication relays
 
-## The communication hook
+## Roles
 
-The arena contains signal dead zones, hacked channels, and temporary relay stations. Team members can always use simple visual pings, but full voice communication and live tactical information depend on the team’s relay network.
+Each team has four players:
 
-A team can:
+- **3 Operatives:** Loyal team members who complete objectives and protect their team.
+- **1 Mole:** A hidden infiltrator secretly aligned with the opposing team. The Mole pretends to help while causing failures, misdirecting teammates, and gathering information.
 
-- Build relays to maintain communication across the map
-- Capture enemy relays to intercept limited information
-- Destroy or jam relays to isolate opponents
-- Decide when to split up and when to stay connected
-- Share information about enemy positions, traps, routes, and objectives
+The Mole should not be obvious. They can complete some real tasks, make believable mistakes, create alibis, and manipulate team discussions.
 
-Communication is part of the strategy. A team with better information and clearer callouts can outplay a team with stronger equipment.
+## Main objectives
 
-## Team roles
+Each team must complete shared tasks to power its extraction relay. Tasks may include:
 
-Each player chooses a role that supports communication, coordination, and collaboration:
+- Repairing communication stations
+- Restoring power
+- Delivering resources
+- Defending key rooms
+- Finding access codes
+- Activating the team’s extraction point
 
-- **Runner:** Carries the data core and moves quickly through dangerous areas.
-- **Engineer:** Builds, repairs, and protects relay stations and defensive devices.
-- **Scout:** Uses drones and surveillance tools to locate enemies and mark routes.
-- **Disruptor:** Jams enemy signals, hacks relays, and creates false information.
-- **Guardian:** Defends teammates, controls chokepoints, and protects the extraction route.
+The first team to complete its objectives and extract its data core wins. The opposing team can delay progress by sabotaging systems, stealing resources, or eliminating key players.
 
-Roles are designed to depend on one another. The Runner cannot safely extract without information from the Scout, the Engineer cannot maintain the network alone, and the Disruptor needs teammates to take advantage of the confusion they create.
+## Communication and social deduction
 
-## Core gameplay loop
+Communication is central to every match:
 
-1. **Plan:** Choose roles, equipment, and an opening route as a team.
-2. **Establish communication:** Capture or build relay stations to connect the team.
-3. **Find the core:** Search the contested arena while monitoring the opposing team.
-4. **Coordinate the play:** Create distractions, protect the carrier, and control important routes.
-5. **Fight for extraction:** Escort the core through the enemy’s defenses.
-6. **Adapt:** Change the plan when the enemy jams communication or takes an important relay.
+- Players can talk during exploration, with proximity-based voice communication.
+- Emergency meetings allow teams to share evidence and accuse suspects.
+- Players use quick pings and a shared map to coordinate tasks and locations.
+- Security cameras, task progress, access logs, and witness reports provide clues.
+- The Mole can create false information, fake task progress, and frame another player.
+
+Good collaboration means discussing plans, sharing evidence, assigning responsibilities, and checking whether teammates actually completed their tasks.
+
+## Team-vs-team gameplay
+
+The two teams compete for control of the facility while trying to expose the opposing team’s Mole. Teams can:
+
+- Race to finish objectives first
+- Contest important rooms and resources
+- Intercept or jam the opposing team’s communications
+- Defend their own relay stations
+- Use information from captured terminals
+- Coordinate attacks without revealing their own strategy
+
+A team that works together but ignores suspicious behavior may lose to a well-hidden Mole. A team that becomes too suspicious and stops collaborating may fail its objectives.
 
 ## Example match moment
 
-Team A discovers the data core first, but the carrier is trapped in a signal dead zone. The Scout marks enemy movement with a drone while the Engineer repairs a nearby relay. At the same time, the Disruptor jams Team B’s communications, allowing the Guardian to create a safe route. Team B realizes the attack is a distraction, captures Team A’s main relay, and forces the carrier to choose between two dangerous extraction paths.
+Blue Team sends two players to repair the east relay while the other two collect a power cell. Their Mole secretly disables the relay just before completion, then claims Red Team was seen near the room. During the emergency meeting, one player shares camera footage that proves the Mole’s story is false. Blue Team must decide whether to remove the suspicious player or keep four people available to finish the extraction.
 
-The winning team is the one that communicates, coordinates, and collaborates more effectively under pressure.
+At the same time, Red Team is close to winning—but its own Mole is quietly delaying the final task and encouraging the team to attack Blue instead.
 
 ## What makes it fun
 
-- Every player has useful information and an important team responsibility.
-- Communication creates meaningful tactical choices instead of being background voice chat.
-- Teamwork can overcome a mechanical disadvantage.
-- Players can win through clever coordination, deception, defense, or a fast assault.
-- Matches create memorable moments when a team recovers after losing contact.
+- 4v4 matches are small enough for every player to matter.
+- Team members must collaborate while questioning each other.
+- Communication, evidence, and memory are as important as movement and reflexes.
+- Moles can win through sabotage, deception, and believable teamwork.
+- Operatives can win by completing objectives and correctly identifying the infiltrator.
+- Every match creates stories about trust, betrayal, accusations, and last-second decisions.
 
 ## Initial scope
 
-- Two-team competitive multiplayer
-- 3–5 players per team
-- One arena with changing signal conditions
-- Five roles with distinct abilities
-- Capture, build, jam, and destroy relay stations
-- One main data-core objective and secondary objectives
-- Team voice communication, quick pings, and shared map markers
-- 15–25 minute matches
+- One facility map
+- 8-player online multiplayer
+- Two teams of four
+- One Mole per team
+- Shared tasks and team-specific objectives
+- Proximity voice chat, emergency meetings, pings, and evidence systems
+- Sabotage, reporting, voting, and player elimination
+- 10–20 minute matches
 
 ## Future scope
 
-This section will be expanded with the future features and direction provided later, including additional game modes, maps, roles, progression, and competitive systems.
+This section will be expanded with the future features and direction provided later, including additional maps, roles, abilities, game modes, progression, ranked play, and customization.
 
 ## Tagline
 
-**Connect your team. Break theirs. Extract the core.**
+**Trust your team. Find the Mole. Extract before they do.**
