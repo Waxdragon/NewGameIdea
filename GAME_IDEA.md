@@ -119,6 +119,12 @@ The game should reward:
 - Helping teammates recover
 - Creative use of chain momentum
 
+## 8. Visual concept
+
+This concept image shows the intended tone for the game: colorful obstacle courses, readable team chains, expressive characters, and funny physical-comedy moments. It can be used as a visual reference when presenting the idea to a mentor.
+
+![Don't Break the Chain concept art](assets/dont-break-the-chain-concept.jpg)
+
 ## Tagline
 
 **Stay together. Move together. Don't break the chain.**
