@@ -1,96 +1,124 @@
-# Relay Zero
+# Don't Break the Chain
 
-## High concept
+## 1. How the game works
 
-**Relay Zero** is an **8-player, 4v4 social-deduction multiplayer game** inspired by games like *Among Us*, but built around two rival teams. Both teams are trapped in the same facility and must complete objectives, repair systems, and extract valuable data before the opposing team does.
+**Don't Break the Chain** is a multiplayer obstacle-course game where two teams compete on the same course. Each team has four players connected by a rope or elastic chain, and every player must reach the finish line together.
 
-The twist is that each team has one hidden **Mole** secretly working for the other side. Players must communicate, coordinate tasks, collaborate under pressure, and identify who is sabotaging the team before it is too late.
+The chain has a maximum stretch distance. If one player runs too far ahead or falls too far behind, the chain pulls the team back. Players must communicate, coordinate their movements, and collaborate to overcome obstacles without breaking their formation.
 
-## Match format
+### Core rules
 
-- **Players:** 8 total
-- **Teams:** 2 teams of 4
-- **Mode:** Team vs. team with hidden infiltrators
-- **Match length:** 10–20 minutes
-- **Setting:** A facility with connected rooms, task stations, vents, security systems, and communication relays
+- Two teams compete on the same obstacle course.
+- Each team has four connected players.
+- All four players must reach the finish line for the team to win.
+- The chain behaves like an elastic rope rather than a rigid connection.
+- Exceeding the chain's maximum stretch distance pulls players back toward one another.
+- Team movement, timing, and communication are more important than individual speed.
 
-## Roles
+## 2. Obstacles
 
-Each team has four players:
+Obstacles are the main source of challenge and comedy. Each one tests the team's timing, positioning, and ability to stay connected.
 
-- **3 Operatives:** Loyal team members who complete objectives and protect their team.
-- **1 Mole:** A hidden infiltrator secretly aligned with the opposing team. The Mole pretends to help while causing failures, misdirecting teammates, and gathering information.
+### Spinning Hammers
 
-The Mole should not be obvious. They can complete some real tasks, make believable mistakes, create alibis, and manipulate team discussions.
+Players must time their movements together to pass rotating obstacles without being knocked backward. One mistimed player can pull the rest of the team out of position.
 
-## Main objectives
+### Narrow Bridges
 
-Each team must complete shared tasks to power its extraction relay. Tasks may include:
+Players must cross one at a time without stretching the chain too far. The team must decide who leads, who waits, and when it is safe for the next player to move.
 
-- Repairing communication stations
-- Restoring power
-- Delivering resources
-- Defending key rooms
-- Finding access codes
-- Activating the team’s extraction point
+### Slippery Platforms
 
-The first team to complete its objectives and extract its data core wins. The opposing team can delay progress by sabotaging systems, stealing resources, or eliminating key players.
+Players slide in different directions, making it difficult to keep the group together. Teammates must counter-steer and adjust their movement to prevent the chain from stretching.
 
-## Communication and social deduction
+### Moving Platforms
 
-Communication is central to every match:
+The whole team must jump at the correct time to avoid leaving teammates behind. Moving too early or too late can separate the group and cause a chain reaction.
 
-- Players can talk during exploration, with proximity-based voice communication.
-- Emergency meetings allow teams to share evidence and accuse suspects.
-- Players use quick pings and a shared map to coordinate tasks and locations.
-- Security cameras, task progress, access logs, and witness reports provide clues.
-- The Mole can create false information, fake task progress, and frame another player.
+### Swinging Pendulums
 
-Good collaboration means discussing plans, sharing evidence, assigning responsibilities, and checking whether teammates actually completed their tasks.
+One player might get through while another is knocked backward, pulling the entire chain. The team must recover quickly before the chain drags everyone into danger.
 
-## Team-vs-team gameplay
+## 3. How teams win
 
-The two teams compete for control of the facility while trying to expose the opposing team’s Mole. Teams can:
+The game can support several competitive modes.
 
-- Race to finish objectives first
-- Contest important rooms and resources
-- Intercept or jam the opposing team’s communications
-- Defend their own relay stations
-- Use information from captured terminals
-- Coordinate attacks without revealing their own strategy
+### Race Mode
 
-A team that works together but ignores suspicious behavior may lose to a well-hidden Mole. A team that becomes too suspicious and stops collaborating may fail its objectives.
+The first team to get all four players across the finish line wins.
 
-## Example match moment
+### Survival Mode
 
-Blue Team sends two players to repair the east relay while the other two collect a power cell. Their Mole secretly disables the relay just before completion, then claims Red Team was seen near the room. During the emergency meeting, one player shares camera footage that proves the Mole’s story is false. Blue Team must decide whether to remove the suspicious player or keep four people available to finish the extraction.
+Teams navigate an increasingly difficult course. Obstacles become harder over time, and the last team still moving together wins.
 
-At the same time, Red Team is close to winning—but its own Mole is quietly delaying the final task and encouraging the team to attack Blue instead.
+### Challenge Mode
 
-## What makes it fun
+Both teams complete different objectives on the course. The team with the highest score at the end wins.
 
-- 4v4 matches are small enough for every player to matter.
-- Team members must collaborate while questioning each other.
-- Communication, evidence, and memory are as important as movement and reflexes.
-- Moles can win through sabotage, deception, and believable teamwork.
-- Operatives can win by completing objectives and correctly identifying the infiltrator.
-- Every match creates stories about trust, betrayal, accusations, and last-second decisions.
+Possible challenge objectives include collecting items, reaching checkpoints, completing timed tasks, or using the chain to activate team mechanisms.
 
-## Initial scope
+## 4. Important gameplay mechanics
 
-- One facility map
-- 8-player online multiplayer
-- Two teams of four
-- One Mole per team
-- Shared tasks and team-specific objectives
-- Proximity voice chat, emergency meetings, pings, and evidence systems
-- Sabotage, reporting, voting, and player elimination
-- 10–20 minute matches
+Controls should remain extremely simple so that players can focus on communication and coordination.
 
-## Future scope
+| Action | Control |
+|---|---|
+| Move | WASD / Arrow keys |
+| Jump | Space |
+| Sprint | Shift |
+| Team pull | Shared chain physics |
 
-This section will be expanded with the future features and direction provided later, including additional maps, roles, abilities, game modes, progression, ranked play, and customization.
+### Shared chain physics
+
+The chain should stretch, pull, swing, and bounce like an elastic rope. A player who moves too far away creates tension in the chain, affecting the entire team. This creates funny and unpredictable situations where players pull one another around, accidentally launch teammates, or recover from a near-disaster together.
+
+## 5. Chain formation variations
+
+These variations can expand the game after the core experience is proven.
+
+### A. One Chain, One Team
+
+All four players are connected in a straight line. The first player leads, and the last player must keep up.
+
+This is the recommended starting version because it is easy to understand, easy to teach, and gives every player a clear position in the team.
+
+### B. The Circle Chain
+
+Four players are connected in a circular formation. Everyone must coordinate direction and movement to navigate obstacles.
+
+This formation creates a different kind of teamwork because there is no single leader. Players must communicate continuously and make decisions as a group.
+
+### C. The Chaos Chain
+
+The chain can stretch, swing, and bounce more dramatically. Players can use momentum to launch teammates across gaps, but poor coordination can send the entire team flying.
+
+This can begin as an advanced mode and later be introduced through power-ups, special obstacles, or high-risk shortcuts.
+
+## 6. Recommended development plan
+
+Start with **One Chain, One Team** as the core format:
+
+1. Build basic four-player movement.
+2. Add the shared elastic chain physics.
+3. Create a simple obstacle course.
+4. Add timing-based obstacles such as spinning hammers and moving platforms.
+5. Test the chain distance, pull strength, and recovery behavior.
+6. Add Race Mode as the first competitive mode.
+7. Introduce Chaos Chain mechanics through power-ups and special obstacles.
+8. Expand with Circle Chain, Survival Mode, and Challenge Mode after the core game feels fun.
+
+## 7. Game identity
+
+The heart of **Don't Break the Chain** is cooperative chaos. Players should laugh when a teammate makes a mistake, communicate under pressure, and celebrate when the whole team finally crosses an obstacle together.
+
+The game should reward:
+
+- Clear communication
+- Coordinated movement
+- Patience and timing
+- Helping teammates recover
+- Creative use of chain momentum
 
 ## Tagline
 
-**Trust your team. Find the Mole. Extract before they do.**
+**Stay together. Move together. Don't break the chain.**
