@@ -2,50 +2,82 @@
 
 ## High concept
 
-**Relay Zero** is a 2–6 player cooperative heist game where the crew can only communicate through a limited, player-built radio network. Players infiltrate a shifting facility, steal a target, and physically carry the signal from room to room while security systems learn from their behavior.
+**Relay Zero** is a competitive multiplayer game for **two teams**. Each team races to capture a valuable data core, build a communication relay network, and deliver the core to its extraction point before the opposing team does.
 
-## The hook
+The match is not won by individual skill alone. Teams must communicate clearly, coordinate their movements, and collaborate on different objectives while disrupting the other team’s plans.
 
-Every player has a different role and an imperfect view of the level:
+## Match format
 
-- **Runner:** moves the objective and navigates hazards.
-- **Operator:** hacks doors, cameras, and alarms from remote terminals.
-- **Scout:** controls disposable drones and marks safe routes.
-- **Mimic:** disguises the crew by copying guard routines and voice lines.
-- **Anchor:** deploys temporary relay nodes that extend communication range.
+- **Players:** 2 teams of 3–5 players
+- **Mode:** Team vs. team
+- **Match length:** 15–25 minutes
+- **Objective:** Capture the data core, transport it across the map, and extract it
+- **Victory:** The first team to successfully extract the core wins; if neither team extracts it, the team with the most secured objectives wins
 
-Voice communication works only when players are connected to the relay chain. If the chain is broken, teammates can hear static, partial words, or nothing at all. The team must decide whether to stay together, risk splitting up, or spend scarce battery power on a new relay.
+## The communication hook
 
-## Core loop
+The arena contains signal dead zones, hacked channels, and temporary relay stations. Team members can always use simple visual pings, but full voice communication and live tactical information depend on the team’s relay network.
 
-1. **Plan:** choose a contract, roles, equipment, and an entry route.
-2. **Infiltrate:** explore a procedurally assembled facility and establish relays.
-3. **Adapt:** security analyzes repeated tactics, closes familiar routes, and deploys countermeasures.
-4. **Extract:** steal the target, keep the relay chain alive, and escape before the facility enters lockdown.
-5. **Upgrade:** use the payout to unlock tools, relay types, disguises, and riskier contracts.
+A team can:
 
-## Why it is fun
+- Build relays to maintain communication across the map
+- Capture enemy relays to intercept limited information
+- Destroy or jam relays to isolate opponents
+- Decide when to split up and when to stay connected
+- Share information about enemy positions, traps, routes, and objectives
 
-- Communication itself becomes a resource and a source of memorable chaos.
-- Every role has useful information but never the whole picture.
-- A failed run creates stories: “I could hear you, but only every third word.”
-- The adaptive facility makes repeating the same strategy unreliable without making levels random noise.
-- The game supports both coordinated friends and quick matchmaking through ping commands and role-specific objectives.
+Communication is part of the strategy. A team with better information and clearer callouts can outplay a team with stronger equipment.
 
-## Example moment
+## Team roles
 
-The Runner finds the vault but loses connection when a blast door seals. The Operator sees three camera feeds and knows which door is safe, but cannot talk through the interference. The Scout pilots a drone to flash a route marker, while the Anchor sneaks across a laser grid to reconnect the team. Just as the chain is restored, the Mimic triggers a fake evacuation announcement, giving everyone thirty seconds to escape.
+Each player chooses a role that supports communication, coordination, and collaboration:
 
-## MVP scope
+- **Runner:** Carries the data core and moves quickly through dangerous areas.
+- **Engineer:** Builds, repairs, and protects relay stations and defensive devices.
+- **Scout:** Uses drones and surveillance tools to locate enemies and mark routes.
+- **Disruptor:** Jams enemy signals, hacks relays, and creates false information.
+- **Guardian:** Defends teammates, controls chokepoints, and protects the extraction route.
 
-- 1 facility theme with 3 contract types
-- 4 playable roles
-- 2–6 player online co-op
-- Relay placement and signal-loss system
-- Basic adaptive security director
-- 20 unlockable tools and cosmetics
-- Short 15–25 minute missions
+Roles are designed to depend on one another. The Runner cannot safely extract without information from the Scout, the Engineer cannot maintain the network alone, and the Disruptor needs teammates to take advantage of the confusion they create.
+
+## Core gameplay loop
+
+1. **Plan:** Choose roles, equipment, and an opening route as a team.
+2. **Establish communication:** Capture or build relay stations to connect the team.
+3. **Find the core:** Search the contested arena while monitoring the opposing team.
+4. **Coordinate the play:** Create distractions, protect the carrier, and control important routes.
+5. **Fight for extraction:** Escort the core through the enemy’s defenses.
+6. **Adapt:** Change the plan when the enemy jams communication or takes an important relay.
+
+## Example match moment
+
+Team A discovers the data core first, but the carrier is trapped in a signal dead zone. The Scout marks enemy movement with a drone while the Engineer repairs a nearby relay. At the same time, the Disruptor jams Team B’s communications, allowing the Guardian to create a safe route. Team B realizes the attack is a distraction, captures Team A’s main relay, and forces the carrier to choose between two dangerous extraction paths.
+
+The winning team is the one that communicates, coordinates, and collaborates more effectively under pressure.
+
+## What makes it fun
+
+- Every player has useful information and an important team responsibility.
+- Communication creates meaningful tactical choices instead of being background voice chat.
+- Teamwork can overcome a mechanical disadvantage.
+- Players can win through clever coordination, deception, defense, or a fast assault.
+- Matches create memorable moments when a team recovers after losing contact.
+
+## Initial scope
+
+- Two-team competitive multiplayer
+- 3–5 players per team
+- One arena with changing signal conditions
+- Five roles with distinct abilities
+- Capture, build, jam, and destroy relay stations
+- One main data-core objective and secondary objectives
+- Team voice communication, quick pings, and shared map markers
+- 15–25 minute matches
+
+## Future scope
+
+This section will be expanded with the future features and direction provided later, including additional game modes, maps, roles, progression, and competitive systems.
 
 ## Tagline
 
-**Stay connected. Stay invisible. Get out before the signal dies.**
+**Connect your team. Break theirs. Extract the core.**
